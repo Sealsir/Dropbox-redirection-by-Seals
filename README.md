@@ -1,1 +1,0 @@
-# Dropbox-redirection-by-Seals

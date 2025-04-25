@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const urls = [
+        "https://example1.com",
+        "https://example2.com",
+        "https://example3.com",
+        "https://example4.com",
+        "https://example5.com"
+      ];
+      const randomIndex = Math.floor(Math.random() * urls.length);
+      window.location.href = urls[randomIndex];
+    });
+  </script>
+</head>
+<body>
+  <p>Redirecting you... Btw, hi :) i hope you are doing well</p>
+</body>
+</html>
